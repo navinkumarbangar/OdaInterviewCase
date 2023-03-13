@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">OdaInterviewCase</string>
+    <string name="home">Home</string>
+    <string name="mixed">Mixed</string>
+    <string name="product">Product</string>
+    <string name="recipe">Recipe</string>
+    <string name="empty_string">Empty List</string>
+    <string name="available_str">Available</string>
+    <string name="not_available_str">Not Available</string>
+    <string name="likes_str">Likes</string>
+</resources>

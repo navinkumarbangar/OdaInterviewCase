@@ -1,0 +1,203 @@
+{
+  "response_type": "mixed",
+  "query_string": "crispy",
+  "attributes": {
+    "items": 5,
+    "page": 1,
+    "has_more_items": false,
+    "request_types": [
+      {
+        "count": 43,
+        "type": "mixed",
+        "display_name": "Topp resultater"
+      },
+      {
+        "count": 23,
+        "type": "product",
+        "display_name": "Varer"
+      },
+      {
+        "count": 20,
+        "type": "recipe",
+        "display_name": "Oppskrifter"
+      },
+      {
+        "count": 999,
+        "type": "experiment",
+        "display_name": "Experiment"
+      },
+      {
+        "count": 111,
+        "type": "unknown",
+        "display_name": "Unknown"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": 9999,
+      "type": "recipe",
+      "attributes": {
+        "title": "Crispy kylling-sliders med chipotle slaw",
+        "difficulty_string": "Lett",
+        "difficulty": "easy",
+        "cooking_duration_string": "20 min",
+        "is_liked_by_user": true,
+        "like_count": 2460
+      }
+    },
+    {
+      "id": 36707,
+      "type": "product",
+      "attributes": {
+        "full_name": "Stanges Gårdsprodukter Crispy Duck",
+        "gross_price": "139.00",
+        "gross_unit_price": "289.58",
+        "unit_price_quantity_abbreviation": "kg",
+        "currency": "NOK",
+        "availability": {
+          "is_available": false,
+          "description": "Utsolgt fra leverandør",
+          "description_short": "Utsolgt",
+          "code": "sold_out_supplier"
+        }
+      }
+    },
+    {
+      "id": 41005,
+      "type": "product",
+      "attributes": {
+        "full_name": "Santa Maria Crispy Chicken Spice Mix Santa Maria",
+        "gross_price": "29.40",
+        "gross_unit_price": "588.00",
+        "unit_price_quantity_abbreviation": "kg",
+        "currency": "NOK",
+        "availability": {
+          "is_available": true,
+          "description": "",
+          "description_short": "",
+          "code": "available"
+        }
+      }
+    },
+    {
+      "type": "recipe_list",
+      "attributes": {
+        "total_items": 20,
+        "items": 2,
+        "name": "top_recipe_list",
+        "navigate_to": "recipe",
+        "display_name": "Topp oppskrifter"
+      },
+      "items": [
+        {
+          "id": 2961,
+          "type": "recipe",
+          "attributes": {
+            "title": "Crispy kylling-sliders med chipotle slaw",
+            "difficulty_string": "Lett",
+            "difficulty": "easy",
+            "cooking_duration_string": "20 min",
+            "is_liked_by_user": true,
+            "like_count": 2460
+          }
+        },
+        {
+          "id": 2902,
+          "type": "recipe",
+          "attributes": {
+            "title": "Crispy kylling med ris og peanøttsaus",
+            "difficulty_string": "Lett",
+            "difficulty": "easy",
+            "cooking_duration_string": "20 min",
+            "is_liked_by_user": true,
+            "like_count": 3004
+          }
+        }
+      ]
+    },
+    {
+      "id": 100000,
+      "type": "experiment",
+      "attributes": {
+        "full_name": "Experiment 1",
+        "query": "crispy",
+        "suggested": true,
+        "total_items": 20,
+        "items": 1
+      }
+    },
+    {
+      "type": "category_list",
+      "attributes": {
+        "total_items": 25,
+        "items": 1,
+        "name": "category_list"
+      },
+      "items": [
+        {
+          "id": 529,
+          "type": "category",
+          "attributes": {
+            "name": "Crispy",
+            "parent": 22,
+            "has_children": false,
+            "id": 529
+          }
+        }
+      ]
+    },
+    {
+      "type": "product_list",
+      "attributes": {
+        "total_items": 23,
+        "items": 2,
+        "name": "product_list"
+      },
+      "items": [
+        {
+          "id": 27007,
+          "type": "product",
+          "attributes": {
+            "full_name": "Kylling Lårbiff Crispy",
+            "gross_price": "73.50",
+            "gross_unit_price": "245.00",
+            "unit_price_quantity_abbreviation": "kg",
+            "currency": "NOK",
+            "availability": {
+              "is_available": true,
+              "description": "",
+              "description_short": "",
+              "code": "available"
+            }
+          }
+        },
+        {
+          "id": 36724,
+          "type": "product",
+          "attributes": {
+            "full_name": "Läkerol Yup Crispy Lico",
+            "gross_price": "24.70",
+            "gross_unit_price": "617.50",
+            "unit_price_quantity_abbreviation": "kg",
+            "currency": "NOK",
+            "availability": {
+              "is_available": true,
+              "description": "",
+              "description_short": "",
+              "code": "available"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
+
+
+
+
+
+
+
+
